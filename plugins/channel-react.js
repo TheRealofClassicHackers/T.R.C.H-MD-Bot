@@ -72,13 +72,13 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         await conn.newsletterReactMessage(channelMeta.id, messageId, emoji);
 
-        return reply(`╭━━〔 *DML-MD* 〕━┈⊷
+        return reply(`╭━━〔 *T-Bot* 〕━┈⊷
 ┃▸ *Success!* Reaction sent
 ┃▸ *Channel:* ${channelMeta.name}
 ┃▸ *Reaction:* ${emoji}
 ╰────────────────┈⊷
 
-> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ DML*`);
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ T.R.C.H-Team*`);
 
     } catch (e) {
 
@@ -90,4 +90,4 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 });
 
-// *ᴘᴏᴡᴇʀᴇᴅ ʙʏ DML* 
+// *ᴘᴏᴡᴇʀᴇᴅ ʙʏ T.R.C.H-Team* 
